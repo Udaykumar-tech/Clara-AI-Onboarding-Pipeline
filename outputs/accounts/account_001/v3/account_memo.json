@@ -1,0 +1,44 @@
+{
+    "account_id": "account_001",
+    "company_name": "Ben's Electric Solutions",
+    "business_hours": {
+        "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ],
+        "start": "15:",
+        "end": "20:",
+        "timezone": "EST"
+    },
+    "office_address": "",
+    "services_supported": [
+        "service calls",
+        "quotes",
+        "small electrical jobs"
+    ],
+    "emergency_definition": [
+        "Gas station electrical issues for GNM Pressure Washing properties"
+    ],
+    "emergency_routing_rules": [
+        "Transfer emergency gas station calls from GNM Pressure Washing properties directly to Ben"
+    ],
+    "non_emergency_routing_rules": [
+        "Collect caller name, phone number and service request then notify Ben"
+    ],
+    "call_transfer_rules": {
+        "timeout_seconds": "",
+        "retries": "",
+        "failure_message": ""
+    },
+    "integration_constraints": [
+        "Send post-call notifications via SMS and email"
+    ],
+    "after_hours_flow_summary": "After hours calls handled next business day except emergency calls from property manager",
+    "office_hours_flow_summary": "Clara answers incoming customer calls and transfers to Ben when needed",
+    "questions_or_unknowns": [],
+    "notes": "Updated after onboarding call",
+    "version": "v3"
+}

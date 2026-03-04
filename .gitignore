@@ -1,0 +1,27 @@
+# Ignore demo audio files (client data protection)
+datasets/demo/*.m4a
+datasets/demo/*.mp3
+datasets/demo/*.wav
+
+# Python virtual environments
+venv/
+.env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings (optional)
+.vscode/

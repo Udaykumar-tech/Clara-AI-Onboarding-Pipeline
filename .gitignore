@@ -4,8 +4,8 @@ datasets/demo/*.mp3
 datasets/demo/*.wav
 
 # Python virtual environments
+.venv/
 venv/
-.env/
 
 # Python cache files
 __pycache__/
